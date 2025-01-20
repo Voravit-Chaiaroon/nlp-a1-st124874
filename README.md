@@ -22,18 +22,8 @@ This Flask web application allows users to search for a word and find the top 10
 
 ## File Structure
 
+app/ │ ├── app.py # Flask application code ├── templates/ │ └── index.html # HTML template for the web interface ├── model_gensim.gensim # Pre-trained word embedding model (too big to push to git) └── README.md # Project documentation
 
-app/
-│
-├── app.py                 # Flask application code
-├── templates/
-│   └── index.html         # HTML template for the web interface
-├── model_gensim.gensim    # Pre-trained word embedding model (to big to push to git)
-└── README.md              # Project documentation
-
-datasets/
-│
-├── word-test.v1.txt
-└── wordsim_similarity_goldstandard.txt
+datasets/ │ ├── word-test.v1.txt └── wordsim_similarity_goldstandard.txt
 
 
